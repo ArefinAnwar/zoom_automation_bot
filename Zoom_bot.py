@@ -32,7 +32,7 @@ try:
     pyautogui.moveTo(618, 324)  # Clicking meeting id textbox
     pyautogui.click()
 
-    time.sleep(3)
+    time.sleep(6)
     pyautogui.write(meeting_id)  # typing meeting id
 
     pyautogui.moveTo(713, 494)  # clicking  join
@@ -41,7 +41,7 @@ try:
     pyautogui.moveTo(597, 329)  # Clicking meeting password textbox
     pyautogui.click()
 
-    time.sleep(2)
+    time.sleep(3)
     pyautogui.write(meeting_password)  # Typing meeting textbox
 
     pyautogui.moveTo(704, 499)  # Cicking join
